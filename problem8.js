@@ -6,6 +6,7 @@ function reverseString (str){
         const element = str[i];
         // console.log(element);
         reversed = reversed + element;
+       
     }
     return reversed;
 }
