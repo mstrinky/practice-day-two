@@ -1,0 +1,1 @@
+// Write a function that takes in an array of strings and returns the longest string in the array. 

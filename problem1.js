@@ -10,3 +10,4 @@ function getPalindrome(str){
 
 
 console.log(getPalindrome('madam'));
+console.log(getPalindrome('teacher'));
