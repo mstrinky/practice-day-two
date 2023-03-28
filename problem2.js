@@ -33,3 +33,21 @@ const oddNumbers = getOddNumbers(myNumbers);
 // console.log(oddNumbers);
 const oddNumberSum = getSumOfArray(oddNumbers);
 console.log(oddNumberSum);
+
+
+
+
+// ALTERNATIVE METHOD --------------------------------------------
+// -----------------------------------------------
+function sumOfOddNumbers(arr){
+    sum = 0;
+    for(let i=0; i<arr.length; i++){
+        if(arr[i]%2 !==0 ){
+            sum = sum + arr[i];
+        }
+    }
+    return sum;
+}
+
+console.log(sumOfOddNumbers([11,12,13,14,15,16]));
+console.log(sumOfOddNumbers([2,4,8]));
