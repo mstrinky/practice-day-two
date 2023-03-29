@@ -5,3 +5,6 @@ function findSecondSmallestNumber(arr){
     return arr[1];
 }
 console.log(findSecondSmallestNumber([4,5,6,7,67,45,]));
+
+// disending mane = boro theke choto
+// asending mane = choto theke boro
